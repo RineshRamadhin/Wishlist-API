@@ -1,4 +1,6 @@
 # Wishlist API
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/f11553d1c0194419b1dcbf104c93992a)](https://www.codacy.com/manual/rinesh.ramadhin/Wishlist-API?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=RineshRamadhin/Wishlist-API&amp;utm_campaign=Badge_Grade)
+
 Django RESTful api for Wishlist.
 
 ## Installation
