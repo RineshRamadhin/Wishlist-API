@@ -3,6 +3,7 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.getenv("DJANGO_SECRET_KEY")
+DJANGO_TEMPORARY_TOKEN = os.getenv("DJANGO_TEMPORARY_TOKEN")
 DEBUG = os.getenv("DJANGO_DEBUG")
 ALLOWED_HOSTS = ["*"]
 AUTH_USER_MODEL = "user.User"
