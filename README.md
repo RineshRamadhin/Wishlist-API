@@ -7,7 +7,7 @@ Django RESTful api for Wishlist.
 
 The Wishlist API requires the following software and OS to be installed:
 
-- Apple Mac OS Yosemite 10.10.3+ or Microsoft Windows 10 Professional/Enterprise 64-bit
+-   Apple Mac OS Yosemite 10.10.3+ or Microsoft Windows 10 Professional/Enterprise 64-bit
 - [Docker Desktop](https://www.docker.com/products/docker-desktop) 
 
 On lower versions of Mac OS, Windows, or on Linux, 
