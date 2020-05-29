@@ -1,3 +1,3 @@
 """
-Src package root.
+Package root.
 """
