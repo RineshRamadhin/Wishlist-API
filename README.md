@@ -7,8 +7,8 @@ Django RESTful api for Wishlist.
 
 The Wishlist API requires the following software and OS to be installed:
 
-- Apple Mac OS Yosemite 10.10.3+ or Microsoft Windows 10 Professional/Enterprise 64-bit
-- [Docker Desktop](https://www.docker.com/products/docker-desktop) 
+  - Apple Mac OS Yosemite 10.10.3+ or Microsoft Windows 10 Professional/Enterprise 64-bit
+  - [Docker Desktop](https://www.docker.com/products/docker-desktop) 
 
 On lower versions of Mac OS, Windows, or on Linux, 
 the [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/) 
@@ -16,28 +16,28 @@ can also be installed, although the Wishlist API is not originally developed usi
 
 ## Startup guide
 
- - Open a terminal window in the project folder
- - Copy the .env.dist file to .env and fill in the values
+   - Open a terminal window in the project folder
+   - Copy the .env.dist file to .env and fill in the values
  
- ``` bash
-$ cp .env.dist .env
-```
+   ``` bash
+   $ cp .env.dist .env
+   ```
 
- - Run the following code to prepare and start the required containers
+   - Run the following code to prepare and start the required containers
 
-``` bash
-$ docker-compose build
-```
+   ``` bash
+   $ docker-compose build
+   ```
 
-- Start all containers in detached mode (see below)
-- Create a superuser
-``` bash
-$ docker exec -it api_django_1 sh
-python manage.py createsuperuser
-```
+  - Start all containers in detached mode (see below)
+  - Create a superuser
+
+   ``` bash
+   $ docker exec -it api_django_1 sh
+   python manage.py createsuperuser
+   ```
 
 ## Microservices/containers
-
 ###  Start all project microservices/containers
 
 ``` bash
