@@ -23,14 +23,14 @@ can also be installed, although the Wishlist API is not originally developed usi
    $ cp .env.dist .env
    ```
 
-  - Run the following code to prepare and start the required containers
+ -  Run the following code to prepare and start the required containers
 
    ``` bash
    $ docker-compose build
    ```
 
-  - Start all containers in detached mode (see below)
-  - Create a superuser
+ -  Start all containers in detached mode (see below)
+ -  Create a superuser
 
    ``` bash
    $ docker exec -it api_django_1 sh
