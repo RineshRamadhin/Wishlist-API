@@ -1,3 +1,1 @@
-"""
-Package root.
-"""
+""" Package root. """
