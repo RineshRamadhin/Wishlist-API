@@ -8,7 +8,5 @@ class Link(models.Model):
     link = models.URLField(max_length=255)
 
     class Meta:
-        """
-        metadata
-        """
+        """metadata"""
         db_table = "link"
