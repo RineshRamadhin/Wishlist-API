@@ -5,6 +5,8 @@ from .models import User
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
+        """metadata
+        """
         model = User
         fields = (
             "id",
