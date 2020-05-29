@@ -4,9 +4,7 @@ from .models import Link
 
 class LinkSerializer(serializers.ModelSerializer):
     class Meta:
-        """
-        metadata
-        """
+        """metadata"""
         model = Link
         fields = (
             "id",
@@ -17,4 +15,3 @@ class LinkSerializer(serializers.ModelSerializer):
             "id",
             "created_at",
         )
-
