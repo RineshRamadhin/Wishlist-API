@@ -8,4 +8,5 @@ class User(AbstractUser):
 
     class Meta:
         """metadata"""
+        
         db_table = "user"
