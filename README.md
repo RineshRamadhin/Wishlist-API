@@ -19,9 +19,9 @@ can also be installed, although the Wishlist API is not originally developed usi
 -   Open a terminal window in the project folder
 -   Copy the .env.dist file to .env and fill in the values
  
-   ``` bash
-   $ cp .env.dist .env
-   ```
+``` bash
+$ cp .env.dist .env
+```
 
 -  Run the following code to prepare and start the required containers
 
