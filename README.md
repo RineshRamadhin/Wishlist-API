@@ -15,21 +15,21 @@ the [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/)
 can also be installed, although the Wishlist API is not originally developed using this tools.
 
 ## Startup guide
- -  Open a terminal window in the project folder
- -  Copy the .env.dist file to .env and fill in the values
+-  Open a terminal window in the project folder
+-  Copy the .env.dist file to .env and fill in the values
  
    ``` bash
    $ cp .env.dist .env
    ```
 
- -  Run the following code to prepare and start the required containers
+-  Run the following code to prepare and start the required containers
 
    ``` bash
    $ docker-compose build
    ```
 
- -  Start all containers in detached mode (see below)
- -  Create a superuser
+-  Start all containers in detached mode (see below)
+-  Create a superuser
 
    ``` bash
    $ docker exec -it api_django_1 sh
